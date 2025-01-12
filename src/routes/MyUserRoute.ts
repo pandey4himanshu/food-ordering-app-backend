@@ -14,3 +14,4 @@ router.post("/",jwtCheck, MyUserController.createCurrentUser);
 router.put("/",jwtParse , validateMyUserRequest ,MyUserController.updateCurrentUser);
 
 export default router;
+    
